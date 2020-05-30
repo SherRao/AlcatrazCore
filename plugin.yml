@@ -1,0 +1,18 @@
+name: AlcatrazCore
+version: 1.6.5_MC-1.8.8
+description: AlcatrazCore
+author: SherRao
+
+main: tk.sherrao.bukkit.alcatraz.AlcatrazCore
+prefix: AlcatrazCore
+depend: [ Vault ]
+
+commands:
+    customenchants:
+        description: "/customenchants <player> <enchantment> <level>"
+        aliases: [ customenchant, ce ] 
+        
+    cratekey:
+        description: "/cratekey <player> <crate>"
+        aliases: [ crate, key, ck ] 
+        

@@ -1,0 +1,43 @@
+general:
+    no-perms: "&cYou don't have permission to do that!"    
+    no-money: "&cYou can't afford that! You still need &6&o$[money]!"
+
+casino:
+    register: "&aYou have successfully placed a Casino at &6&o([x], [y], [z])&a!"
+    unregister: "&aYou have successfully destroyed the Casino at &6&o([x], [y], [z])&a!"    
+    win: "&aYou have won &6&o[reward]&a!"
+    
+    
+crates:
+    register: "&aYou have successfully placed a [type] crate at &6&o([x], [y], [z])&a!"
+    unregister: "&aYou have successfully destroyed the [type] crate at &6&o([x], [y], [z])&a!"  
+    win: "&aYou have won &6&o[reward]&a!"
+
+
+lockette:
+    register: "&aYou have successfully placed a locked iron door at &6&o([x], [y], [z]) &athat only you can open!"
+    unregister: "&aYou have successfully destroyed the iron door at &6&o([x], [y], [z])&a!"
+    use-locked:
+        allow: "&aYou have opened your locked door!" 
+        deny: "&cThis door has been locked by &6&o[player]&c!"
+
+
+commands:
+    executor-not-player: "&cOnly a player can execute that command!"
+    invalid-player-specified: "&cThat isn't a valid player!"
+
+    enchant:
+        command-usage: "&cWrong! Use &6&o'/[command] <player> <enchantment> <level>'"
+        invalid-enchant-specified: "&cThat isn't a proper enchantment!"
+        invalid-level-specified: "&cThat isn't a valid level!"
+        invalid-item-specified: "&cThe item you are holding isn't a valid item for enchanting!"
+        given: "&aYou have given &6&o[player] &athe &6&o[enchant] [level] &aenchant!"
+        received: "&aYou have receieved the &6&o[enchant] [level] &aenchant from &6&o[player]!"
+    
+    cratekey:
+        command-usage: "&cWrong! Use &6&o'/[command] <player> <crate-name>'"
+        invalid-crate-specified: "&cThat isn't a valid crate!"
+        given: "&aYou have given &6&o[player] &athe &6&o[crate] crate key!"
+        received: "&aYou have receieved the &6&o[crate] &acrate key from &6&o[player]!"
+    
+    

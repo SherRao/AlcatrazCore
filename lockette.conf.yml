@@ -1,0 +1,11 @@
+# The text that a sign placed on an iron door should have to be registered as a protected sign
+register-text: "[lock]"
+
+
+# The text that a registered sign is replaced with
+# [player] -> Gets changed to the person who registered the door
+replace-with:
+    - "=-=-=-=-=-=-=-="
+    - "&bDoor Locked by"
+    - "&c[player]"
+    - "=-=-=-=-=-=-=-=" 

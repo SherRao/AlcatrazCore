@@ -1,0 +1,33 @@
+# Configuration for the 'BlastBack' enchantment 
+# Damage = base-damage + (multiplier * enchantment-level)
+blastback:
+    base-damage: 2
+    multiplier: 2
+
+
+# Configuration for the 'KnockBack' enchantment
+# Blocks = base-distance + (multiplier * enchantment-level)
+knockback:
+    base-distance: 2
+    multiplier: 2
+
+
+# Configuration for the "BlastMine" enchantment
+# Explosion Radius = (base-radius - 1) + (multiplier * enchantment-level)
+blastmine:
+    base-radius: 2
+    multiplier: 2
+
+
+# Configuration for the "MoarExperience" enchantment
+# Experience = base-xp + (multiplier * enchantment-level)
+moarexp:
+    base-xp: 25
+    multiplier: 2    
+
+
+# Configuration for the "BlastHitter" enchantment
+# Damage = base-damage + (multiplier * enchantment-level)
+blasthitter:
+    base-damage: 2
+    multiplier: 2

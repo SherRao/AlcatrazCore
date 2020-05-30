@@ -1,0 +1,43 @@
+general:
+    no-perms: "ANVIL_USE"    
+    no-money: "ANVIL_USE"
+
+casino:
+    register: "ANVIL_USE"
+    unregister: "ANVIL_USE"    
+    win: "ANVIL_USE"
+    
+    
+crates:
+    register: "ANVIL_USE"
+    unregister: "ANVIL_USE"  
+    win: "ANVIL_USE"
+
+
+lockette:
+    register: "ANVIL_USE"
+    unregister: "ANVIL_USE"
+    use-locked:
+        allow: "ANVIL_USE" 
+        deny: "ANVIL_USE"
+
+
+commands:
+    executor-not-player: "ANVIL_USE"
+    invalid-player-specified: "ANVIL_USE"
+
+    enchant:
+        command-usage: "ANVIL_USE"
+        invalid-enchant-specified: "ANVIL_USE"
+        invalid-level-specified: "ANVIL_USE"
+        invalid-item-specified: "ANVIL_USE"
+        given: "ANVIL_USE"
+        received: "ANVIL_USE"
+    
+    cratekey:
+        command-usage: "ANVIL_USE"
+        invalid-crate-specified: "ANVIL_USE"
+        given: "ANVIL_USE"
+        received: "ANVIL_USE"
+    
+    
